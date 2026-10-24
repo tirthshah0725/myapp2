@@ -1,0 +1,186 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: #1e3a8a;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header p {
+    margin: 10px 0;
+    color: #dbeafe;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffd166;
+}
+
+/* Sections */
+section {
+    width: 80%;
+    max-width: 900px;
+    margin: 30px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+section h2 {
+    color: #1e3a8a;
+    margin-bottom: 15px;
+}
+
+/* About */
+#about {
+    text-align: center;
+}
+
+#about img {
+    border-radius: 50%;
+    border: 4px solid #1e3a8a;
+    margin: 15px 0;
+}
+
+/* Skills */
+ul {
+    list-style: square;
+    padding-left: 20px;
+}
+
+ul li {
+    margin: 8px 0;
+}
+
+/* Projects */
+article {
+    background: #f8fafc;
+    padding: 15px;
+    margin: 15px 0;
+    border-left: 5px solid #2563eb;
+    border-radius: 5px;
+}
+
+article h3 {
+    color: #2563eb;
+    margin-bottom: 8px;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table th {
+    background: #2563eb;
+    color: white;
+}
+
+table th,
+table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+table tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+/* Form */
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+input[type="submit"] {
+    background: #2563eb;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+input[type="submit"]:hover {
+    background: #1d4ed8;
+}
+
+/* Links */
+#contact a {
+    color: #2563eb;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background: #1e3a8a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+/* Horizontal Line */
+hr {
+    border: none;
+    height: 1px;
+    background: #ddd;
+    margin: 20px 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    section {
+        width: 95%;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 8px;
+    }
+}
